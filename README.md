@@ -1,4 +1,5 @@
-[![MutableLookup](https://img.shields.io/nuget/v/MutableLookup.svg)](https://www.nuget.org/packages/MutableLookup)
+[![NuGet](https://img.shields.io/nuget/v/MutableLookup.svg)](https://www.nuget.org/packages/MutableLookup)
+[![AppVeyor](https://ci.appveyor.com/api/projects/status/github/jussik/MutableLookup?svg=true)](https://ci.appveyor.com/project/jussik/mutablelookup)
 
 # MutableLookup
 
