@@ -2,7 +2,7 @@
 
 # MutableLookup
 
-A mutable `ILookup` library.
+A .NET Standard 2.0 library for mutable `ILookup` collections.
 
 Defines an interface `IMutableLookup` for defining mutable `ILookup` containers:
 
