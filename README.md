@@ -35,6 +35,9 @@ NuGet package page: https://www.nuget.org/packages/MutableLookup
 
 The library comes with the `MutableLookup` abstract class which allows trivial definition of a new IMutableLookup. Given a type `MyCollection<TElement>` that implements `ICollection<TElement>`, you can define a new IMutableLookup type like this:
 
-`public sealed class MyCollectionLookup<TKey, TElement> : MutableLookup<TKey, TElement, MyCollection<TElement>> { }`
+```c#
+public sealed class MyCollectionLookup<TKey, TElement>
+    : MutableLookup<TKey, TElement, MyCollection<TElement>> { }
+```
 
 If your collection does not implement a constant time `.Count` property, you should override the `bool IsContainerEmpty(TContainer container)` method to efficiently see if the container is empty.
