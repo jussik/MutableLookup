@@ -5,6 +5,13 @@ VisualStudioVersion = 15.0.27004.2002
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MutableLookup", "MutableLookup\MutableLookup.csproj", "{A290C086-4571-4E71-8D85-13632DD2E210}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MutableLookupTests", "MutableLookupTests\MutableLookupTests.csproj", "{E8656C8F-CDD7-41F4-A1F9-0C77E8AEC977}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C8338E3D-A8FF-457A-9430-7D960B4DF5C1}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +22,10 @@ Global
 		{A290C086-4571-4E71-8D85-13632DD2E210}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A290C086-4571-4E71-8D85-13632DD2E210}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A290C086-4571-4E71-8D85-13632DD2E210}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E8656C8F-CDD7-41F4-A1F9-0C77E8AEC977}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8656C8F-CDD7-41F4-A1F9-0C77E8AEC977}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8656C8F-CDD7-41F4-A1F9-0C77E8AEC977}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8656C8F-CDD7-41F4-A1F9-0C77E8AEC977}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -3,11 +3,12 @@ using System.Linq;
 
 namespace MutableLookup
 {
-	public interface IMutableLookup<TKey, TValue> : ILookup<TKey, TValue>
+	public interface IMutableLookup<TKey, TElement> : ILookup<TKey, TElement>
 	{
-		void Add(TKey key, TValue value);
-		void Remove(TKey key);
-		void Remove(TKey key, TValue value);
-		bool TryGetValues(TKey key, out IEnumerable<TValue> values);
+		void Add(TKey key, TElement value);
+		bool Remove(TKey key);
+		bool Remove(TKey key, TElement value);
+		void Clear();
+		bool TryGetValues(TKey key, out IEnumerable<TElement> values);
 	}
 }
