@@ -6,13 +6,18 @@
     <Company />
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <Description>A mutable ILookup library.</Description>
-    <Copyright>Copyright 2017</Copyright>
+    <Copyright>Copyright 2017 Jussi Kosunen</Copyright>
     <PackageProjectUrl>https://github.com/jussik/MutableLookup</PackageProjectUrl>
     <RepositoryUrl></RepositoryUrl>
     <PackageTags>ILookup MutableLookup IMutableLookup data-structures</PackageTags>
+    <PackageLicenseUrl>https://github.com/jussik/MutableLookup/blob/master/LICENSE</PackageLicenseUrl>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <LangVersion>latest</LangVersion>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
     <LangVersion>latest</LangVersion>
   </PropertyGroup>
 
