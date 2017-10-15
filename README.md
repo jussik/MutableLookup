@@ -12,6 +12,14 @@ Comes with a few predefined types that utilise .NET's own generic collection typ
 
 Each type has its own advantages and disadvantages based on use case requirements.
 
+## Installation
+
+Install `MutableLookup` through NuGet:
+
+`NuGet install MutableLookup`
+
+NuGet package page: https://www.nuget.org/packages/MutableLookup
+
 ## Implementing your own IMutableLookup
 
 The library comes with the `MutableLookup` abstract class which allows trivial definition of a new IMutableLookup. Given a type `MyCollection<TElement>` that implements `ICollection<TElement>`, you can define a new IMutableLookup type like this:
