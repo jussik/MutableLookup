@@ -1,3 +1,5 @@
+[![MutableLookup](https://img.shields.io/nuget/v/MutableLookup.svg)](https://www.nuget.org/packages/MutableLookup)
+
 # MutableLookup
 
 A mutable `ILookup` library.
