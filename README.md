@@ -4,14 +4,16 @@ A mutable `ILookup` library.
 
 Defines an interface `IMutableLookup` for defining mutable `ILookup` containers:
 
-	public interface IMutableLookup<TKey, TElement> : ILookup<TKey, TElement>
-	{
-		void Add(TKey key, TElement value);
-		bool Remove(TKey key);
-		bool Remove(TKey key, TElement value);
-		void Clear();
-		bool TryGetValues(TKey key, out IEnumerable<TElement> values);
-	}
+```c#
+public interface IMutableLookup<TKey, TElement> : ILookup<TKey, TElement>
+{
+    void Add(TKey key, TElement value);
+    bool Remove(TKey key);
+    bool Remove(TKey key, TElement value);
+    void Clear();
+    bool TryGetValues(TKey key, out IEnumerable<TElement> values);
+}
+```
 
 Comes with a few predefined types that utilise .NET's own generic collection types:
 
